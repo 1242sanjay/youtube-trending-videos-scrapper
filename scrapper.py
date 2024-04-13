@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
   print('Save the data to a CSV')
   videos_df = pd.DataFrame(videos_data)
-  print(videos_df)
+  # print(videos_df)
   # videos_df.to_csv('trending.csv', index=False)
 
   print('Sending result over email')
